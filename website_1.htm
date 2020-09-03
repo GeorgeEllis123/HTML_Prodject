@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Animals Page</title>
+  <style>
+    h1 {
+      border: 2px solid black;
+      margin: 50px;
+      text-align: center;
+      font-size: 300%;
+      background-color: dodgerblue;
+      }
+    h2 {
+      text-align: center;
+      font-size: 200%;
+      text-decoration: underline;
+      font-family: sans-serif;
+      color: tomato;
+      }
+    h3 {
+      font-size: 150%;
+      font-family: sans-serif;
+      text-decoration: underline;
+      }
+    caption {
+      font-size: 125%;
+      text-decoration: underline;
+      font-family: sans-serif;
+    }
+    .photo-caption {
+      text-align: center;
+      }
+    .info {
+      background-color: lightgray;
+      padding: 20px
+      }
+    table {
+      font-family: times;
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 125%;
+      }
+    td, th {
+      text-align: center;
+      padding: 9px;
+      border: 1px solid black;
+      }
+    tr:nth-child(odd) {
+      background-color: rgb(156, 175, 193);
+      color: rgb(100, 100, 100)
+      }
+    tr:nth-child(even) {
+      color: rgb(70, 70, 70);
+      }
+
+  </style>
+</head>
+
+<body style="background-color:powderblue;">
+  <h1>Animals</h1>
+
+  <p style="text-align:center">
+    <a href="#birds">Birds</a>
+    <a href="#dogs">Dogs</a>
+    <a href="#animals">More Animals</a>
+    <a href="#classifications">Animal Classification</a>
+  </p>
+  <br />
+
+
+  <h2 id="birds">Birds</h2>
+  <!-- Learn how to image center and classes? -->
+  <a href="https://en.wikipedia.org/wiki/Bird;" target="_blank">
+    <img src="photos/bird photo.jpg" alt="Bird Link" style="width:400px;height:400px;display:block;margin-left:auto;margin-right:auto;" />
+  </a>
+  <p class="photo-caption"><i>Click on the photo for more information on birds</i></p>
+  <br />
+  <h3>Information on Birds</h3>
+  <blockquote cite="https://en.wikipedia.org/wiki/Bird" class="info">
+    Birds are a group of warm-blooded vertebrates constituting the class Aves, characterized by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5 cm (2 in) bee hummingbird to the 2.75 m (9 ft) ostrich. There are about ten thousand living species, more than half of which are passerine, or "perching" birds. Birds have wings whose development varies according to species; the only known groups without wings are the extinct moa and elephant birds. Wings, which evolved from forelimbs, gave birds the ability to fly, although further evolution has led to the loss of flight in some birds, including ratites, penguins, and diverse endemic island species. The digestive and respiratory systems of birds are also uniquely adapted for flight. Some bird species of aquatic environments, particularly seabirds and some waterbirds, have further evolved for swimming. <a href="other pages/bird.htm;" target="_blank">More Bird Photos</a> ...
+  </blockquote>
+  <!-- Help -->
+  <table>
+    <caption>Classifications</caption>
+    <tr>
+      <th>Catagory</th>
+      <th>Group</th>
+    </tr>
+    <tr>
+      <td>Domain</td>
+      <td>Eukarya</td>
+    </tr>
+    <tr>
+
+      <td>Kingdom</td>
+      <td>Anamalia</td>
+    </tr>
+    <tr>
+      <td>Phylum</td>
+      <td>Chordata</td>
+    </tr>
+    <tr>
+      <td>Class</td>
+      <td>Aves</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+
+  <h2 id="dogs">Dogs</h2>
+  <!-- Learn how to image center and classes? -->
+  <a href="https://en.wikipedia.org/wiki/Dog;" target="_blank">
+    <img src="photos/dog photo.jpg" alt="Dog Link" style="width:400px;height:400px;display:block;margin-left:auto;margin-right:auto;" />
+  </a>
+  <p class="photo-caption"><i>Click on the photo for more information on dogs</i></p>
+  <br />
+  <h3>Information on Dogs</h3>
+  <blockquote cite="https://en.wikipedia.org/wiki/Dog" class="info">
+    The dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a domesticated carnivore of the family Canidae. It is part of the wolf-like canids, and is the most widely abundant terrestrial carnivore. The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct. The dog was the first species to be domesticated, and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes. <a href="other pages/dog.htm;" target="_blank">More Dog Photos</a> ...
+  </blockquote>
+  <!-- Help -->
+  <br />
+  <h4 style="text-decoration:underline">Most Popular Dog Breeds</h4>
+  <ol>
+    <li>Labrador Retriever</li>
+    <li>Golden Retriever</li>
+    <li>Beagle</li>
+    <li>German Shepherd</li>
+    <li>Pembroke Welsh Corgi</li>
+    <li>Doberman</li>
+    <li>Border Collie</li>
+    <li>Belgian Bulldog</li>
+    <li>French Bulldog</li>
+    <li>Shiba Inu</li>
+  </ol>
+
+  <h2 id="animals">More Animals</h2>
+  <ul style="font-size:200%">
+    <li><a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank">Giraffe</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Horse" target="_blank">Horse</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Fish" target="_blank">Fish</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Cat</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Mouse" target="_blank">Mouse</a></li>
+  </ul>
+
+  <h2 id="classifications">More Information on Animal Classification</h4>
+  <iframe src="https://a-z-animals.com/reference/animal-classification/" style="height:400px;width:800px;display:block;margin-left:auto;margin-right:auto;" title="Animal Classifications"></iframe>
+
+</body>
+</html>
